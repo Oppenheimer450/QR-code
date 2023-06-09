@@ -8,7 +8,11 @@ html {
     font-size: 18px;
     font-family: 'Outfit', sans-serif;
     display: inline;
-    height: 100vh;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
 }
 
 /* from Frontend Mentor for footer */
@@ -26,7 +30,7 @@ html {
     background-color: hsl(0, 0%, 100%);
     border-radius: 0.9rem;
     padding: 0.7rem;
-    margin: 3rem;
+    margin: 5rem;
     display: flex;
     flex-direction: column;
     width: 30%;
