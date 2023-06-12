@@ -17,8 +17,8 @@ html, body {
 }
 
 /* from Frontend Mentor for footer */
-/* .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 .container {
     padding: 4rem 0 4rem 0;
@@ -33,7 +33,7 @@ html, body {
     padding: 0.7rem;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
 }
 
 #qr-image {
