@@ -13,6 +13,7 @@ html {
 html, body {
     margin: 0;
     height: 100%;
+    background-color: hsl(212, 45%, 89%);
 }
 
 /* from Frontend Mentor for footer */
@@ -20,7 +21,7 @@ html, body {
 .attribution a { color: hsl(228, 45%, 44%); } */
 
 .container {
-    background-color: hsl(212, 45%, 89%);
+    padding: 4rem 0 4rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,6 @@ html, body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 0.9rem;
     padding: 0.7rem;
-    margin: 5rem;
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -57,7 +57,7 @@ html, body {
     text-align: center;
 }
 
-@media (max-width:700px ){
+@media (max-width:800px ){
     html {
         font-size: 11px;
     }
